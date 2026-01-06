@@ -9,7 +9,7 @@ import { getVocabularyForLevelOnly as getJapaneseVocabularyForLevelOnly } from '
 import { getAllKana, getKanaBySubType } from '../utils/completeKanaData';
 import { updateLevelProgress } from '../utils/progressTypes';
 import { saveProgressSafe } from '../utils/adminHelper';
-import { addPoints, POINTS_PER_CORRECT } from '../utils/pointsSystem';
+import { addPoints, POINTS_PER_CORRECT } from '../utils/points';
 import { findBestVoice, getCurrentVoiceActor, getVoiceSettings } from '../utils/voiceActorSystem';
 
 interface VocabularyLessonProps {
