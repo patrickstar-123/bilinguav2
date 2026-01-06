@@ -8,4 +8,8 @@
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
+
+  # BilinguaV2
+
+Aplikasi pembelajaran Bahasa Mandarin (HSK 1-6) dan Bahasa Jepang (JLPT N5-N1)
   
