@@ -10,7 +10,7 @@ import { getAllKana, getKanaBySubType } from '../utils/completeKanaData';
 import { updateLevelProgress } from '../utils/progressTypes';
 import { saveProgressSafe } from '../utils/adminHelper';
 import { addPoints, POINTS_PER_CORRECT } from '../utils/points';
-import { findBestVoice, getCurrentVoiceActor, getVoiceSettings } from '../utils/voiceActorSystem';
+import { findBestVoice, getCurrentVoiceActor, getVoiceSettings } from '../utils/voiceSettings';
 
 interface VocabularyLessonProps {
   level: number | string;
