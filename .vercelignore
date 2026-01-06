@@ -1,0 +1,3 @@
+# Force Vercel to use latest commit
+node_modules
+.git
